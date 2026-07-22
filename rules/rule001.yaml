@@ -1,0 +1,14 @@
+title: Detect Failed Login
+
+description: Detect multiple failed login attempts from the same user within five minutes.
+
+severity: High
+
+mitre: T1110
+
+author: Security Team
+
+status: Active
+
+detection_logic: |
+  event.code == "4625"
