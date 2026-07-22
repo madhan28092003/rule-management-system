@@ -1,0 +1,14 @@
+title: Detect RDP Brute Force
+
+description: Detect repeated Remote Desktop login failures.
+
+severity: High
+
+mitre: T1110
+
+author: Security Team
+
+status: Active
+
+detection_logic: |
+  event.code == "4625" and service == "RDP"
