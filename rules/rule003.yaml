@@ -1,0 +1,14 @@
+title: Detect PowerShell Execution
+
+description: Detect suspicious PowerShell commands executed on endpoints.
+
+severity: Medium
+
+mitre: T1059.001
+
+author: Security Team
+
+status: Active
+
+detection_logic: |
+  process.name == "powershell.exe"
