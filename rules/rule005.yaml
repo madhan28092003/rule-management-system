@@ -1,0 +1,14 @@
+title: Detect Suspicious File Download
+
+description: Detect executable files downloaded from untrusted domains.
+
+severity: Medium
+
+mitre: T1105
+
+author: Security Team
+
+status: Active
+
+detection_logic: |
+  file.extension == ".exe"
