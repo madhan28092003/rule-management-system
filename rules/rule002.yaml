@@ -1,0 +1,14 @@
+title: Detect SQL Injection
+
+description: Detect SQL injection attempts in web application requests.
+
+severity: Critical
+
+mitre: T1190
+
+author: Security Team
+
+status: Active
+
+detection_logic: |
+  request contains "' OR 1=1"
