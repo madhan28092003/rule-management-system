@@ -1,0 +1,5 @@
+title: pp
+description: ss
+severity: High
+mitre: '1180'
+detection_logic: fine
